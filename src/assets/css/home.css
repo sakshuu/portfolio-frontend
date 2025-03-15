@@ -1,0 +1,48 @@
+
+#btn{
+    color: white !important;
+    border: 2px solid white !important;
+    font-size: 18px !important;
+    transition: transform 0.25s ease !important;
+}
+
+#btn:hover{
+    color: #BEBEBE !important;
+    border: 2px solid #BEBEBE !important;
+    transform: scale(1.1) !important;
+}
+.content{
+    position: relative !important;
+    margin-top: 45px !important;
+}
+.fontsize{
+    font-size: 140% !important;
+}
+.spacing {
+    line-height: 45px !important;
+}
+.main-btn{
+    margin-top: 34px !important;
+}
+.icon{
+    margin-top: 10px !important;
+    display: inline !important;
+    gap: 10px !important;
+    margin-right: 20px !important; 
+    width: 4% !important;
+}
+@media (max-width:650px) {
+    #btn{
+        font-size: 12px !important;
+    }
+    .icon{
+        width: 10% !important;
+        margin-bottom: 10px !important;
+    }
+}
+.typeani{
+    color: #DA70D6 !important;
+}
+.fllowMe{
+    margin-top: 20px !important;
+}

@@ -1,0 +1,20 @@
+.appbar{
+    background-color: #080808 !important;
+    /* width: 100vw !important; */
+    /* height: 50px; */
+}
+.nav-link{
+    text-decoration:  none !important;
+    color: inherit !important;
+}
+.icon-page{
+    color: beige !important;
+}
+.btn{
+    border-radius: 20px !important;
+    background-color: #383838 !important;
+}
+.menu{
+    background-color: #383838 !important;
+    color: aliceblue !important;
+}
