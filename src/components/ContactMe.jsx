@@ -292,6 +292,7 @@ export default function ContactMe() {
     }),
     onSubmit: (values, { resetForm }) => {
       // Send form data to the backend
+      // axios.post('http://localhost:5000/send-email', values)
       axios.post('https://portfolio-backend-4ogf.onrender.com/send-email', values)
         .then((response) => {
           console.log('Email sent successfully!', response.data);
