@@ -12,7 +12,8 @@ const Projects = () => {
   const projects = [
     {
       title:"My Protfolio",  
-      hostedLink:"https://git-protfolio.vercel.app/",
+      // hostedLink:"https://git-protfolio.vercel.app/",
+      hostedLink:"https://portfolio-frontend-thm6.onrender.com",
       GithubLink:"https://github.com/sakshuu/git-protfolio",
       img: protfolio,
       desc:"My portfolio project showcases my skills as a frontend developer using React JS. The website includes a home page, project page, and about me section, highlighting my work and experience. The website is designed to be visually appealing and easy to navigate, demonstrating my ability to create responsive and dynamic user interfaces.",
