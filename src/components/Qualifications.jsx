@@ -9,7 +9,7 @@ const education = [
     year:"JUNE 2019- JUNE 2022",  
     title:"Deogiri Institute Of Technology AndManagement Studies",  
     city:'AURANGABAD',
-    degree:"Bachlar of computer science / BCS",  
+    degree:"Bachelor of computer science / BCS",  
     percentage:'76.37%',
     desc:"I have successfully completed my Bachelor of Computer Science degree from D.I.T.M.S College and Dr. Babasaheb Ambedkar Marathwada University, achieving a remarkable percentage of 77%",  
     id:"1"
