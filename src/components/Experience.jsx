@@ -6,14 +6,14 @@ const Experience = () => {
 
   const experiences = [
     {
-      year:"Jan 2025 - Present",  
-      compunyName:"Freelancing",  
+      year:"April 2025 - Present",  
+      compunyName:"Mindfull Creative Studio",  
       role:"Worked as Full Stack Developer",  
-      // desc:"Developed and maintained a console website for accounting, mail, and HR modules, increasing productivity by 75% and reducing errors by 20%. Designed responsive user interfaces using Vue.js, converting Figma designs into high performance web applications optimized for desktop and mobile devices. Implemented real-time analytics for task assignment and attendance monitoring, improving operational efficiency by 30%. Collaborated with cross-functional teams to deliver user centric web applications on time, ensuring high-quality results. Contributed to the development of the Raru Group website, enhancing user experience and engagement",
+      desc:"Currently working as a Web Developer, contributing to various frontend and backend tasks. Working on 'The Butterfly' — a real estate-related landing page project built with React.js, Node.js, MongoDB, and Bootstrap 5. This project features a fully responsive design, PDF brochure download, and email functionality using Nodemailer. Also involved in the development of the company's main website using React.js, Tailwind CSS, and Swiper.js with modern animations and a bento grid layout to enhance user experience.",
       id:"1"
     },
     {
-      year:"Feb 2024 - Nov 2024",  
+      year:"Feb 2024 - Mar 2024",  
       compunyName:"gofloww, (Full Time)",  
       role:"Worked as Frontend Developer",  
       desc:"Developed and maintained a console website for accounting, mail, and HR modules, increasing productivity by 75% and reducing errors by 20%. Designed responsive user interfaces using Vue.js, converting Figma designs into high performance web applications optimized for desktop and mobile devices. Implemented real-time analytics for task assignment and attendance monitoring, improving operational efficiency by 30%. Collaborated with cross-functional teams to deliver user centric web applications on time, ensuring high-quality results. Contributed to the development of the Raru Group website, enhancing user experience and engagement",
