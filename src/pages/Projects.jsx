@@ -44,6 +44,14 @@ const Projects = () => {
       id:2,
     },
     {
+      title:"Bus-Booking",  
+      hostedLink:"https://bus-gray-six.vercel.app/",
+      GithubLink:"https://github.com/sakshuu/bus",
+      img: red_bus,
+      desc:"The bus booking app is similar to the RedBus booking app. I am currently working on the UI. You can see the progress by clicking on the GitHub and hosted link below.",
+      id:3,
+    },
+    {
       title:"Student Management",  
       hostedLink:"https://github.com/sakshuu/student_data",
       GithubLink:"https://github.com/sakshuu/student_data",
@@ -59,14 +67,7 @@ const Projects = () => {
       desc:"My movie booking project is a user-friendly app built with React JS, Redux, and Bootstrap. Users can search, view details, and book movie tickets. The app's real-time updates and efficient state management ensure smooth performance, making it ideal for online movie ticket booking. (currently working)",
       id:3,
     },
-    {
-      title:"Bus-Booking",  
-      hostedLink:"https://bus-gray-six.vercel.app/",
-      GithubLink:"https://github.com/sakshuu/bus",
-      img: red_bus,
-      desc:"The bus booking app is similar to the RedBus booking app. I am currently working on the UI. You can see the progress by clicking on the GitHub and hosted link below.",
-      id:3,
-    },
+    
     {
       title:"Weather App",  
       hostedLink:"https://sakshuu.github.io/whather_app/",
