@@ -5,3 +5,5 @@ export { default as weather_app } from "./weather_app.jpg";
 export { default as Tic_tac_too } from "./Tic_tac_too.jpg";
 export { default as student } from "./student.jpg";
 export { default as red_bus } from "./red_bus.jpg";
+export { default as thebutterflypune } from "./thebutterflypune.jpg";
+export { default as compunywebsite } from "./compunywebsite.jpg";

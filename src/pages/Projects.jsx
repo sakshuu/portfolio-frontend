@@ -4,7 +4,7 @@ import "./../assets/css/myprojects.css"
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
-import { Tic_tac_too, bollybook, protfolio, red_bus, student, weather_app, youTubeClone } from '../assets/images/projects';
+import { Tic_tac_too, bollybook, compunywebsite, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
 
 
 const Projects = () => {
@@ -25,6 +25,22 @@ const Projects = () => {
       GithubLink:"https://github.com/sakshuu/you-tube_clone",
       img: youTubeClone,
       desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
+      id:2,
+    },
+    {
+      title:"The Butterfly",  
+      hostedLink:"https://thebutterflypune.com/",
+      GithubLink:"https://github.com/sakshuu/butterflyWeb",
+      img: thebutterflypune,
+      desc:"The Butterfly is a landing page designed using React.js for the frontend and Node.js with MongoDB for the backend. The UI is built with Bootstrap 5. The backend also uses Nodemailer for email functionality. This landing page is fully responsive across all device views. It uses CSS Grid for layout and includes navigation for seamless page transitions. Additionally, there is a 'Download PDF' button available for downloading the brochure.",
+      id:2,
+    },
+    {
+      title:"Mindfull Compuny Website",  
+      hostedLink:"https://mindfull-website.onrender.com/",
+      GithubLink:"https://github.com/sakshuu/mindfull-website",
+      img:compunywebsite,
+      desc:"Mindfull Creative Studio is a basic company website. For the frontend, I used React.js along with Tailwind CSS and pure CSS for styling. The backend is built using Node.js In the frontend, I integrated Swiper.js, bento grid layout, scroll effects, and various types of animations to enhance the user experience.",
       id:2,
     },
     {
