@@ -8,7 +8,7 @@ const Experience = () => {
     {
       year:"April 2025 - Present",  
       compunyName:"Mindfull Creative Studio",  
-      role:"Worked as Full Stack Developer",  
+      role:"Worked as Full Stack Developer & UI Developer",  
       desc:"Currently working as a Web Developer, contributing to various frontend and backend tasks. Working on 'The Butterfly' — a real estate-related landing page project built with React.js, Node.js, MongoDB, and Bootstrap 5. This project features a fully responsive design, PDF brochure download, and email functionality using Nodemailer. Also involved in the development of the company's main website using React.js, Tailwind CSS, and Swiper.js with modern animations and a bento grid layout to enhance user experience.",
       id:"1"
     },
@@ -20,20 +20,14 @@ const Experience = () => {
       id:"2"
     },
    
-    {
-      year:" Aug 2023 – Jan 2024",  
-      compunyName:"Banao Technologies, (Contract)",  
-      role:"Worked as Frontend Developer",  
-      desc:"Developing a Student Management System using Next.js & Tailwind CSS, focusing on a user-friendly UI. Currently, I am worked on Student Registration & Attendance Tracking feature.",
-      id:"3"
-    },
-    {
-      year:"Jul 2022 – Jul 2023",  
-      compunyName:"Skillhub It Solutions, (Full Time)",  
-      role:"Worked as MERN Stack Developer",  
-      desc:"Built an e-commerce platform using MERN stack, integrating Razorpay for secure payments and Gmail for user verification, resulting in a 30% increase in conversion rates. Designed scalable database solutions using Node.js and MongoDB, reducing API response times by 30% during peak traffic. Implemented JWT for secure user authentication",
-      id:"4"
-    },
+    // {
+    //   year:" Aug 2023 – Jan 2024",  
+    //   compunyName:"Banao Technologies, (Contract)",  
+    //   role:"Worked as Frontend Developer",  
+    //   desc:"Developing a Student Management System using Next.js & Tailwind CSS, focusing on a user-friendly UI. Currently, I am worked on Student Registration & Attendance Tracking feature.",
+    //   id:"3"
+    // },
+   
 
     
    ];
