@@ -137,10 +137,10 @@ const Projects = () => {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Link to={item?.hostedLink}>
+                  <Link to={item?.hostedLink} target="_blank"  rel="noopener noreferrer">
                     <Button variant="contained" color="secondary" className='main-btn' startIcon={<VisibilityOutlinedIcon />}>Hosted</Button>
                   </Link>
-                  <Link to={item?.GithubLink}>
+                  <Link to={item?.GithubLink}  target="_blank"  rel="noopener noreferrer">
                     <Button variant="contained" color="secondary" className='main-btn' startIcon={<CodeOutlinedIcon />}>Github</Button>
                   </Link>
                 </CardActions>

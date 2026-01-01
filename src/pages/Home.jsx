@@ -53,10 +53,7 @@ const Home = () => {
       </Typography>
  
 
-<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000"> Frontend Developer with 2 years of experience in building user-friendly, responsive web applications using React.js, Vue.js 
-and MERN Stack. Proven expertise in delivering high-performance, device-optimized solutions that enhance user engagement 
-and operational efficiency. Skilled in Full-Stack development, including Node.js, Express.js, and MongoDB, to create scalable 
-and efficient web applications. Seeking to contribute to innovative projects in a dynamic team environment.</Typography>
+<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000"> Frontend Developer with 2+ years of hands-on experience in building scalable, responsive, and high-performance web applications using React.js, Vue.js, Angular, and MERN/MEAN stack technologies. Strong expertise in developing multi-tenant, API-driven platforms, designing reusable UI components, and managing complex application state. Experienced in full-stack development with Node.js, Express.js, and MongoDB, delivering secure, maintainable, and device-optimized solutions. Passionate about collaborating in agile teams to build user-centric products that drive engagement and business impact. </Typography>
 
 <Box  data-aos="zoom-in" data-aos-duration="3000">
 <Typography variant='h5' className='fllowMe typeani' component="h5">Follow or DM me</Typography>

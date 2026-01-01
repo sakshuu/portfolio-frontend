@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 // import Button from '@mui/material/Button';
 import Button from '@mui/material/Button';
+import { Link as RouterLink } from "react-router-dom";
 import MenuItem from '@mui/material/MenuItem';
 import Person2Icon from '@mui/icons-material/Person2';
 import HomeIcon from '@mui/icons-material/Home';
@@ -112,25 +113,54 @@ const settings = [
 <AppBar position='static' className='appbar'>
       <Container  >
         <Toolbar disableGutters>
-          <Person2Icon sx={{ display: { xs: 'none', md: 'flex' }, mr: 2 }} />
+      {/* <Link to="/" sx={{display:'flex', textDecoration:'none', underline:'none', color:'transparent'}} >
+          <Person2Icon sx={{ display: { xs: 'none', md: 'inline' }, mr: 2 }} />
           <Typography
             variant="h6"
             noWrap
             component="a"
-            to="/"
+            
             sx={{
               mr: 2,
-            display: { xs: 'none', md: 'flex',  },
+            display: { xs: 'none', md: 'inline',  },
               variant: { sm:"body1"},
               fontFamily: 'monospace',
               fontWeight: 700,
+              underline:'none',
+              cursor: 'pointer',
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
-          >
+            >
             SAKSHI
           </Typography>
+            </Link> */}
+            <Link
+  to="/"
+  component={RouterLink}
+  style={{ textDecoration: "none" , display:'flex', color:'inherit'}}
+>
+  <Person2Icon sx={{ display: { xs: "none", md: "inline" }, mr: 2 }} />
+
+  <Typography
+    variant="h6"
+    noWrap
+    sx={{
+      display: { xs: "none", md: "inline" },
+      fontFamily: "monospace",
+      fontWeight: 700,
+      letterSpacing: ".3rem",
+      color: "inherit",
+      textDecoration: "none",
+      "&:hover": {
+        textDecoration: "none",
+      },
+    }}
+  >
+    SAKSHI
+  </Typography>
+</Link>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
