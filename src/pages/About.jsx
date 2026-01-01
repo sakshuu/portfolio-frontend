@@ -1,6 +1,8 @@
 import React from 'react'
-import { Box, Button, Container, Grid, Typography } from '@mui/material'
+import { Box, Container, Grid, Typography } from '@mui/material'
 import { saveAs } from 'file-saver';
+import Button from '@mui/material/Button';
+
 import DownloadIcon from '@mui/icons-material/Download';
 import resume from "./../assets/resume/resume.pdf"
 import "./../assets/css/about.css"

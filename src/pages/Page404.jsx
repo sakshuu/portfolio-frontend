@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom';
-import { Button, Typography, Container, Box, styled } from '@mui/material';
+import {  Typography, Container, Box, styled } from '@mui/material';
+import Button from '@mui/material/Button';
+
 import { pageNF } from '../assets/images';
 
 

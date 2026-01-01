@@ -1,10 +1,12 @@
-import { Box, Button, Card, CardActions, CardContent, CardMedia, Container, Grid, IconButton, Typography } from '@mui/material'
+import { Box, Card, CardActions, CardContent, CardMedia, Container, Grid, IconButton, Typography } from '@mui/material'
 import React from 'react'
 import "./../assets/css/myprojects.css"
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
 import { Tic_tac_too, bollybook, compunywebsite, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
+import Button from '@mui/material/Button';
+
 
 
 const Projects = () => {

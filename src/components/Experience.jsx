@@ -6,6 +6,7 @@ const Experience = () => {
 
   const experiences = [
   
+      
     {
       year:"Feb 2024 - Mar 2024",  
       compunyName:"gofloww, (Full Time)",  
