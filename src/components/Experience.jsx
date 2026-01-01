@@ -1,32 +1,27 @@
-import { Box, Card, CardContent, Typography } from '@mui/material'
 import React from 'react'
+import { Box, Card, CardContent, Typography } from '@mui/material'
 import "./../assets/css/resume.css"
 
 const Experience = () => {
 
   const experiences = [
-    {
-      year:"April 2025 - Present",  
-      compunyName:"Mindfull Creative Studio",  
-      role:"Worked as Full Stack Developer & UI Developer",  
-      desc:"Currently working as a Web Developer, contributing to various frontend and backend tasks. Working on 'The Butterfly' — a real estate-related landing page project built with React.js, Node.js, MongoDB, and Bootstrap 5. This project features a fully responsive design, PDF brochure download, and email functionality using Nodemailer. Also involved in the development of the company's main website using React.js, Tailwind CSS, and Swiper.js with modern animations and a bento grid layout to enhance user experience.",
-      id:"1"
-    },
+  
     {
       year:"Feb 2024 - Mar 2024",  
       compunyName:"gofloww, (Full Time)",  
       role:"Worked as Frontend Developer",  
       desc:"Developed and maintained a console website for accounting, mail, and HR modules, increasing productivity by 75% and reducing errors by 20%. Designed responsive user interfaces using Vue.js, converting Figma designs into high performance web applications optimized for desktop and mobile devices. Implemented real-time analytics for task assignment and attendance monitoring, improving operational efficiency by 30%. Collaborated with cross-functional teams to deliver user centric web applications on time, ensuring high-quality results. Contributed to the development of the Raru Group website, enhancing user experience and engagement",
+      id:"1"
+    },
+      {
+      year:"April 2025 - Present",  
+      compunyName:"Umar zone infotech",  
+      role:"Worked as Frontend Developer",  
+      desc:"Led frontend development of 35+ responsive pages for the i2OK multi-tenant platform, building reusable UI components and managing complex state using React Hooks. Integrated REST APIs for real-time data rendering and role-based workflows, collaborating with backend and product teams to deliver scalable, client-specific solutions.",
       id:"2"
     },
    
-    // {
-    //   year:" Aug 2023 – Jan 2024",  
-    //   compunyName:"Banao Technologies, (Contract)",  
-    //   role:"Worked as Frontend Developer",  
-    //   desc:"Developing a Student Management System using Next.js & Tailwind CSS, focusing on a user-friendly UI. Currently, I am worked on Student Registration & Attendance Tracking feature.",
-    //   id:"3"
-    // },
+  
    
 
     
