@@ -23,7 +23,7 @@ const Projects = () => {
     },
     {
       title:"YouTube Clone",  
-      hostedLink:"https://you-tube-clone-ruby.vercel.app/",
+      hostedLink:"https://you-tube-clone-blue.vercel.app/",
       GithubLink:"https://github.com/sakshuu/you-tube_clone",
       img: youTubeClone,
       desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
@@ -31,7 +31,8 @@ const Projects = () => {
     },
     {
       title:"The Butterfly",  
-      hostedLink:"https://thebutterflypune.com/",
+      // hostedLink:"https://thebutterflypune.com/",
+      hostedLink:"https://butterflyclient.vercel.app/",
       GithubLink:"https://github.com/sakshuu/butterflyWeb",
       img: thebutterflypune,
       desc:"The Butterfly is a landing page designed using React.js for the frontend and Node.js with MongoDB for the backend. The UI is built with Bootstrap 5. The backend also uses Nodemailer for email functionality. This landing page is fully responsive across all device views. It uses CSS Grid for layout and includes navigation for seamless page transitions. Additionally, there is a 'Download PDF' button available for downloading the brochure.",
@@ -47,7 +48,7 @@ const Projects = () => {
     },
     {
       title:"Bus-Booking",  
-      hostedLink:"https://bus-gray-six.vercel.app/",
+      hostedLink:"https://bus-five-pearl.vercel.app/",
       GithubLink:"https://github.com/sakshuu/bus",
       img: red_bus,
       desc:"The bus booking app is similar to the RedBus booking app. I am currently working on the UI. You can see the progress by clicking on the GitHub and hosted link below.",
@@ -72,7 +73,7 @@ const Projects = () => {
     
     {
       title:"Weather App",  
-      hostedLink:"https://sakshuu.github.io/whather_app/",
+      hostedLink:"https://whather-app-two.vercel.app/",
       GithubLink:"https://github.com/sakshuu/whather_app",
       img: weather_app,
       desc:"My Weather App Project is a user-friendly app built  in javascript  and Bootstrap. Users can search and view details Weather of any city. The app's real-time updates and  smooth performance, making it ideal for online Weather App booking",
@@ -80,7 +81,7 @@ const Projects = () => {
     },
     {
       title:"Tic-tac-too",  
-      hostedLink:"https://sakshuu.github.io/tic-tac-toe/",
+      hostedLink:"https://tic-tac-toe-bice-chi-92.vercel.app/",
       GithubLink:"https://github.com/sakshuu/tic-tac-toe",
       img: Tic_tac_too,
       desc:"My Tic-tac-too project is a user-friendly app built  in javascript and Bootstrap with animation of GSAP animation. Users can view the score details of win. The app's real-time updates and smooth performance, making it ideal for Tic-tac-too game application",
