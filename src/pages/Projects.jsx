@@ -14,7 +14,6 @@ const Projects = () => {
   const projects = [
     {
       title:"My Protfolio",  
-      // hostedLink:"https://git-protfolio.vercel.app/",
       hostedLink:"https://portfolio-frontend-thm6.onrender.com",
       GithubLink:"https://github.com/sakshuu/git-protfolio",
       img: protfolio,
@@ -31,7 +30,6 @@ const Projects = () => {
     },
     {
       title:"The Butterfly",  
-      // hostedLink:"https://thebutterflypune.com/",
       hostedLink:"https://butterflyclient.vercel.app/",
       GithubLink:"https://github.com/sakshuu/butterflyWeb",
       img: thebutterflypune,
