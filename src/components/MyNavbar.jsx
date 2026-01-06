@@ -113,29 +113,7 @@ const settings = [
 <AppBar position='static' className='appbar'>
       <Container  >
         <Toolbar disableGutters>
-      {/* <Link to="/" sx={{display:'flex', textDecoration:'none', underline:'none', color:'transparent'}} >
-          <Person2Icon sx={{ display: { xs: 'none', md: 'inline' }, mr: 2 }} />
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            
-            sx={{
-              mr: 2,
-            display: { xs: 'none', md: 'inline',  },
-              variant: { sm:"body1"},
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              underline:'none',
-              cursor: 'pointer',
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-            >
-            SAKSHI
-          </Typography>
-            </Link> */}
+      
             <Link
   to="/"
   component={RouterLink}
