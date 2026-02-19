@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title:"My Protfolio",  
       hostedLink:"https://portfolio-frontend-thm6.onrender.com",
-      GithubLink:"https://github.com/sakshuu/git-protfolio",
+      GithubLink:"https://github.com/sakshuu/portfolio-frontend",
       img: protfolio,
       desc:"My portfolio project showcases my skills as a frontend developer using React JS. It includes a home page, project page, and about me section, designed to be visually appealing and easy to navigate. I also integrated a contact form using Nodemailer to enable visitors to send emails directly from the website, demonstrating my ability to connect frontend and backend technologies.",
       id:1,
