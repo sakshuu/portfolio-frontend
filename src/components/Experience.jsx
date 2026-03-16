@@ -11,14 +11,14 @@ const Experience = () => {
       year:"Feb 2024 – Mar 2025",  
       compunyName:"gofloww, (Full Time)",  
       role:"Worked as Frontend Developer",  
-      desc:"Developed and maintained a console website for accounting, mail, and HR modules, increasing productivity by 75% and reducing errors by 20%. Designed responsive user interfaces using Vue.js, converting Figma designs into high performance web applications optimized for desktop and mobile devices. Implemented real-time analytics for task assignment and attendance monitoring, improving operational efficiency by 30%. Collaborated with cross-functional teams to deliver user centric web applications on time, ensuring high-quality results. Contributed to the development of the Raru Group website, enhancing user experience and engagement",
+      desc:"Developed HR, Accounting, and Mail modules using Vue.js. Converted Figma designs into production-ready applications. Built responsive UI for desktop and mobile platforms. Increased operational productivity by 75% and reduced errors by 20%. Implemented real-time attendance and task analytics. Improved system efficiency by 30%",
       id:"1"
     },
       {
       year:"April 2025 - Present",  
       compunyName:"Umar zone infotech",  
       role:"Worked as Frontend Developer",  
-      desc:"Led frontend development of 35+ responsive pages for the i2OK multi-tenant platform, building reusable UI components and managing complex state using React Hooks. Integrated REST APIs for real-time data rendering and role-based workflows, collaborating with backend and product teams to deliver scalable, client-specific solutions.",
+      desc:"Contributed to brainstorming for new feature implementation. Built 35+ production-ready responsive pages using Next.js and reusable components.Built scalable UI architecture using structured SCSS and nested CSS for better maintainability. Built a WordPress-like CMS with reusable templates supporting multi-site and multi-tenant deployments. Created newsletter functionality for email notifications. Enhanced API handling with loading states, error handling, and retry mechanisms. Ensured cross-browser compatibility and responsive design across multiple devices. Collaborated with backend engineers and product teams to deliver scalable features on time. Maintained software version control using GitHub release tags.",
       id:"2"
     },
    
