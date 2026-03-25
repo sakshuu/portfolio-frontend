@@ -46,11 +46,13 @@ const About = () => {
       <Box sx={{display:{ md:"flex", sm:"inline"},  gap:"6px", marginBottom:"8px", marginTop:"29px"}}>
       <Typography variant='h5' > My Name Is </Typography>
       <Typography variant='h5' className='colorText'> Sakshi Jadhav, </Typography>
-      <Typography variant='h5'> a Frontend Developer </Typography>
+      <Typography variant='h5'>  a Software Developer</Typography>
       </Box>
-      <Typography variant='body1' className='info'>Specializing in ReactJS. With expertise in HTML, CSS, JavaScript, ReactJS, and Redux, I have successfully contributed to various projects, including an e-commerce platform. During this experience, I skillfully managed state using Redux, implemented robust authentication systems, integrated APIs using Axios, and leveraged UI libraries such as Material UI and Bootstrap to enhance the overall design and user experience.
+      <Typography variant='body1' className='info'>
+
+      with experience in building modern and scalable web applications. I specialize in frontend technologies including React.js, HTML, CSS, and JavaScript, with hands-on experience in state management, API integration, and UI development using frameworks like Material UI, Bootstrap, and Tailwind CSS. 
 </Typography>
-      <Typography variant='body1' className='info' > My knowledge also extends to CSS frameworks like Tailwind CSS and Bootstrap 5. With a strong command of these technologies, I consistently deliver high-quality and visually appealing frontend solutions. Efficient problem solver with skills in teamwork and delivering projects on time.
+      <Typography variant='body1' className='info' > I am a goal-oriented professional who adapts quickly to new technologies and is capable of contributing effectively in any development field to achieve project objectives. I am a strong problem solver, a team player, and committed to delivering high-quality solutions on time.
 </Typography>
   </Grid>
   </Grid>

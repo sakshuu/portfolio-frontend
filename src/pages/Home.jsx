@@ -53,7 +53,7 @@ const Home = () => {
       </Typography>
  
 
-<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000"> Software Developer with 2+ years of experience building scalable and high-quality web applications. Proven ability to deliver reliable solutions and adapt quickly in fast-paced development environments.
+<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000"> Software Developer with 3 years of experience building scalable and high-quality web applications. Proven ability to deliver reliable solutions and adapt quickly in fast-paced development environments.
 
 </Typography>
 
