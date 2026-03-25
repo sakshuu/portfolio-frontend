@@ -37,7 +37,7 @@ const Projects = () => {
       id:2,
     },
     {
-      title:"Mindfull Compuny Website",  
+      title:"Compuny Website",  
       hostedLink:"https://mindfull-website.onrender.com/",
       GithubLink:"https://github.com/sakshuu/mindfull-website",
       img:compunywebsite,
