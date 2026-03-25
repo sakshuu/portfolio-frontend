@@ -14,7 +14,7 @@ const Contact = () => {
     },
     {
       icon:phone,  
-      details:"+91 982294####",
+      details:"+91 9822949823",
       id:2,
     },
     {
