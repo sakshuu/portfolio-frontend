@@ -7,7 +7,6 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-// import Button from '@mui/material/Button';
 import Button from '@mui/material/Button';
 import { Link as RouterLink } from "react-router-dom";
 import MenuItem from '@mui/material/MenuItem';
@@ -25,7 +24,6 @@ import "./../assets/css/navbar.css"
 import { Link} from 'react-router-dom'
 import { Tooltip } from '@mui/material';
 import { skype_b_w } from '../assets/images';
-// import { skype_b_w  } from "./../assets/images/skype_b_w.png";
 
 const MyNavbar = () => {
 
