@@ -38,10 +38,10 @@ const Projects = () => {
     },
     {
       title:"Compuny Website",  
-      hostedLink:"https://mindfull-website.onrender.com/",
-      GithubLink:"https://github.com/sakshuu/mindfull-website",
+      hostedLink:"https://compuny-website.onrender.com/",
+      GithubLink:"https://github.com/sakshuu/compuny-website",
       img:compunywebsite,
-      desc:"Mindfull Creative Studio is a basic company website. For the frontend, I used React.js along with Tailwind CSS and pure CSS for styling. The backend is built using Node.js In the frontend, I integrated Swiper.js, bento grid layout, scroll effects, and various types of animations to enhance the user experience.",
+      desc:"Compuny Website is a basic company website. For the frontend, I used React.js along with Tailwind CSS and pure CSS for styling. The backend is built using Node.js In the frontend, I integrated Swiper.js, bento grid layout, scroll effects, and various types of animations to enhance the user experience.",
       id:2,
     },
     {
