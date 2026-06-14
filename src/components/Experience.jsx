@@ -21,12 +21,19 @@ const Experience = () => {
       desc:"Developed HR, Accounting, and Mail modules, integrating REST APIs for efficient data handling. Converted Figma designs into SEO-friendly, responsive, production-ready web applications. Improved application performance using lazy loading, code splitting, and other optimization techniques. Implemented real-time attendance and task analytics, enhancing system functionality. Increased operational productivity by 75%, reduced errors by 20%, and improved overall system efficiency by 30%.",
       id:"2"
     },
+    {
+      year:"Apr 2025 – May 2025",  
+      compunyName:"Mindfull, (Full Time)",  
+      role:"Worked as Web Developer",  
+      desc:"Developed the The Butterfly real estate website end-to-end on the frontend side, converting Figma designs into pixel-perfect, responsive pages, integrating APIs and collaborating with the deployment team to successfully launch the website.",
+      id:"3"
+    },
       {
-      year:"April 2025 - Present",  
+      year:"Jun 2025 - Present",  
       compunyName:"Umar zone infotech",  
       role:"Worked as Frontend Developer",  
       desc:"Contributed to brainstorming sessions for new feature implementations. Developed over 35+ production-ready responsive pages using Next.js and reusable components. Built scalable UI architecture using structured SCSS and nested CSS for better maintainability. Developed a WordPress-like CMS featuring reusable templates that support multi-site and multi-tenant deployments. Created newsletter functionality for email notifications. Enhanced API handling with loading states, error handling, and retry mechanisms. Ensured cross-browser compatibility and responsive design across multiple devices. Collaborated with backend engineers and product teams to deliver scalable features on time. Maintained software version control using GitHub release tags. Implemented microservices architecture across frontend and backend for scalable and modular development.",
-      id:"3"
+      id:"4"
     },
    
   
