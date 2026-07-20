@@ -1,390 +1,129 @@
-// import * as React from 'react';
-// import Button from '@mui/material/Button';
-// import TextField from '@mui/material/TextField';
-// import Grid from '@mui/material/Grid';
-// import Box from '@mui/material/Box';
-// import "./../assets/css/contact.css"
-// import { useFormik } from 'formik';
-// import * as yup from "yup"
-
-// export default function ContactMe() {
-  
-//   const formik = useFormik({
-//     initialValues: {
-//       name:"",
-//       email:"",
-//       subject:"",
-//       message:"",
-//     },
-//     validationSchema: yup.object({
-//       name:yup.string().required("Please Enter Name"),
-//       email:yup.string().email("please enter valid email").required("Please Enter email"),
-//       subject:yup.string().required("Please Enter subject"),
-//       message:yup.string().required("Type Your massage"),
-//     }),
-//     onSubmit: (values,{ resetForm }) => {
-// console.log(values);
-//       resetForm();
-//     }
-//   })
-
-  
-//   return <>
-//         <Box
-//           // sx={{
-//           //   display: 'flex',
-//           //   flexDirection: 'column',
-//           //   alignItems: 'center',
-//           // }}
-//           >
-//           <Box component="form" noValidate onSubmit={formik.handleSubmit} >
-//             <Grid container spacing={2}>
-//               <Grid item xs={12} >
-//                 <TextField
-//                 // sx={{color:"white"}}
-//                   autoComplete="given-name"
-//                   name="name"
-//                   required
-//                   fullWidth
-//                   id="name"
-//                   label="Enter your name"
-//                   autoFocus
-//                   value={formik.values.name}
-//                   onChange={formik.handleChange}
-//                   onBlur={formik.handleBlur}
-//                   className={
-//                     formik.errors.name && formik.touched.name
-//                       ? "form-control is-invalid"
-//                       : "form-control"
-//                   }
-//                   InputLabelProps={{
-//                     style: { color: 'white' },
-//                   }}
-//                   InputProps={{
-//                     style: {
-//                       color: 'white',
-//                       '& .MuiOutlinedInput-notchedOutline': {
-//                         '& fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&:hover fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&.Mui-focused fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                       },
-//                     },
-//                     classes: {
-//                       root: 'white-border',
-//                     },
-//                   }}
-//                 />
-//                   {/* <Typography variant='body1' component="body1"
-//                   sx={{ color: "red" }}
-//                   className="invalid-feedback"
-//                 >
-//                   {formik.errors.name}
-//                 </Typography> */}
-//               </Grid>
-
-//               <Grid item xs={12} >
-//                 <TextField
-//                   required
-//                   fullWidth
-//                   id="email"
-//                   label="Enter your email"
-//                   name="email"
-//                   autoComplete="family-name"
-//                   value={formik.values.email}
-//                   onChange={formik.handleChange}
-//                   onBlur={formik.handleBlur}
-//                   className={
-//                     formik.errors.email && formik.touched.email
-//                       ? "form-control is-invalid"
-//                       : "form-control"
-//                   }
-//                   InputLabelProps={{
-//                     style: { color: 'white' },
-//                   }}
-//                   InputProps={{
-//                     style: {
-//                       color: 'white',
-//                       '& .MuiOutlinedInput-notchedOutline': {
-//                         '& fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&:hover fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&.Mui-focused fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                       },
-//                     },
-//                     classes: {
-//                       root: 'white-border',
-//                     },
-//                   }}
-//                   />
-//                                     {/* <Typography variant='body1' component="body1"
-//                   sx={{ color: "red" }}
-//                   className="invalid-feedback"
-//                 >
-//                   {formik.errors.email}
-//                 </Typography> */}
-//               </Grid>
-
-//               <Grid item xs={12}>
-//                 <TextField
-//                   required
-//                   fullWidth
-//                   id="subject"
-//                   label="Email your subject"
-//                   name="subject"
-//                   autoFocus
-//                   autoComplete="subject"
-//                   value={formik.values.subject}
-//                   onChange={formik.handleChange}
-//                   onBlur={formik.handleBlur}
-//                   className={
-//                     formik.errors.subject && formik.touched.subject
-//                       ? "form-control is-invalid"
-//                       : "form-control"
-//                   }
-//                   InputLabelProps={{
-//                     style: { color: 'white' },
-//                   }}
-//                   InputProps={{
-//                     style: {
-//                       color: 'white',
-//                       '& .MuiOutlinedInput-notchedOutline': {
-//                         '& fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&:hover fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&.Mui-focused fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                       },
-//                     },
-//                     classes: {
-//                       root: 'white-border',
-//                     },
-//                   }}
-//                 />
-//                                   {/* <Typography variant='body1' component="body1"
-//                   sx={{ color: "red" }}
-//                   className="invalid-feedback"
-//                 >
-//                   {formik.errors.subject}
-//                 </Typography> */}
-//               </Grid>
-              
-//               <Grid item xs={12}>
-//                 <TextField 
-//                   required
-//                   fullWidth
-//                   id="outlined-multiline"
-//                   label="Enter your message"
-//                   multiline
-//                   rows={5}
-//                   name="message"
-//                   autoComplete="message"
-//                   autoFocus
-//                   // value={formik.values.massage}
-//                   // onChange={formik.handleChange}
-//                   // onBlur={formik.handleBlur}
-//                   // className={
-//                   //   formik.errors.massage && formik.touched.massage
-//                   //     ? "form-control is-invalid"
-//                   //     : "form-control"
-//                   // }
-//                   // name="message"
-//                   value={formik.values.message}
-//                   onChange={formik.handleChange}
-//                   onBlur={formik.handleBlur}
-//                   // name="message"
-//                   className={
-//                     formik.errors.message && formik.touched.message
-//                       ? "form-control is-invalid"
-//                       : "form-control"
-//                   }
-//                   InputLabelProps={{
-//                     style: { color: 'white' },
-//                   }}
-//                   InputProps={{
-//                     style: {
-//                       color: 'white',
-//                       '& .MuiOutlinedInput-notchedOutline': {
-//                         '& fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&:hover fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                         '&.Mui-focused fieldset': {
-//                           borderColor: 'white',
-//                         },
-//                       },
-//                     },
-//                     classes: {
-//                       root: 'white-border',
-//                     },
-//                   }}
-//                 />
-//                                   {/* <Typography variant='body1' component="body1"
-//                   sx={{ color: "red" }}
-//                   className="invalid-feedback"
-//                 >
-//                   {formik.errors.message}
-//                 </Typography> */}
-//               </Grid>
-
-//             </Grid>
-//             <Button
-//               type="submit"
-//               variant="contained"
-//               color='secondary'
-//               fullWidth
-//               sx={{ mt: 3, mb: 2 }}
-//             >
-//               SEND MAIL
-//             </Button>
-
-//           </Box>
-//         </Box>
-//                   </>
-// }
-
-
-
-
-
-
-
-
 import * as React from 'react';
 import Button from '@mui/material/Button';
-
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
+import Snackbar from '@mui/material/Snackbar';
+import Alert from '@mui/material/Alert';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
 
+const API_URL = 'https://portfolio-backend-4ogf.onrender.com';
+// const API_URL = 'http://localhost:5000';
+
 export default function ContactMe() {
-  // Formik configuration
+  const [popup, setPopup] = React.useState({
+    open: false,
+    message: '',
+    severity: 'success',
+  });
+
   const formik = useFormik({
-    initialValues: {
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
-    },
+    initialValues: { name: '', email: '', subject: '', message: '' },
+
     validationSchema: yup.object({
-      name: yup.string().required('Please Enter Name'),
-      email: yup.string().email('Please enter a valid email').required('Please Enter email'),
-      subject: yup.string().required('Please Enter subject'),
-      message: yup.string().required('Type Your message'),
+      name: yup.string().trim().required('Please enter your name'),
+      email: yup.string().email('Please enter a valid email').required('Please enter your email'),
+      subject: yup.string().trim().required('Please enter a subject'),
+      message: yup.string().trim().required('Please type your message'),
     }),
-    onSubmit: (values, { resetForm }) => {
-      // Send form data to the backend
-      axios.post('https://portfolio-backend-4ogf.onrender.com/send-email', values)
-        .then((response) => {
-          console.log('Email sent successfully!', response.data);
-          alert('Message sent successfully!');
-          resetForm(); // Reset the form after successful submission
-        })
-        .catch((error) => {
-          console.error('Failed to send email:', error);
-          alert('Failed to send message. Please try again.');
+
+    onSubmit: async (values, { resetForm, setSubmitting }) => {
+      try {
+        const response = await axios.post(`${API_URL}/send-email`, values, {
+          timeout: 10000,
+          headers: { 'Content-Type': 'application/json' },
         });
+
+        setPopup({
+          open: true,
+          severity: 'success',
+          message: response.data.message || 'Your message has been sent successfully.',
+        });
+        resetForm();
+      } catch (error) {
+        setPopup({
+          open: true,
+          severity: 'error',
+          message: error.response?.data?.message || 'Could not send your message. Please try again.',
+        });
+      } finally {
+        setSubmitting(false);
+      }
     },
   });
 
   return (
-    <Box component="form" id="send-mail-form"  noValidate onSubmit={formik.handleSubmit}>
-      <Grid container spacing={2}>
-        <Grid item xs={12}>
-          <TextField
-            autoComplete="given-name"
-            name="name"
-            required
-            fullWidth
-            id="name"
-            label="Enter your name"
-            autoFocus
-            value={formik.values.name}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            error={formik.touched.name && Boolean(formik.errors.name)}
-            helperText={formik.touched.name && formik.errors.name}
-          />
+    <>
+      <Box component="form" id="send-mail-form" noValidate onSubmit={formik.handleSubmit}>
+        <Grid container spacing={2}>
+          {[
+            ['name', 'Enter your name'],
+            ['email', 'Enter your email'],
+            ['subject', 'Enter your subject'],
+          ].map(([name, label]) => (
+            <Grid item xs={12} key={name}>
+              <TextField
+                required
+                fullWidth
+                id={name}
+                name={name}
+                label={label}
+                type={name === 'email' ? 'email' : 'text'}
+                value={formik.values[name]}
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+                error={formik.touched[name] && Boolean(formik.errors[name])}
+                helperText={formik.touched[name] && formik.errors[name]}
+              />
+            </Grid>
+          ))}
+
+          <Grid item xs={12}>
+            <TextField
+              required
+              fullWidth
+              multiline
+              rows={4}
+              id="message"
+              name="message"
+              label="Enter your message"
+              value={formik.values.message}
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              error={formik.touched.message && Boolean(formik.errors.message)}
+              helperText={formik.touched.message && formik.errors.message}
+            />
+          </Grid>
         </Grid>
 
-        <Grid item xs={12}>
-          <TextField
-            required
-            fullWidth
-            id="email"
-            label="Enter your email"
-            name="email"
-            autoComplete="email"
-            value={formik.values.email}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            error={formik.touched.email && Boolean(formik.errors.email)}
-            helperText={formik.touched.email && formik.errors.email}
-          />
-        </Grid>
+        <Button
+          type="submit"
+          variant="contained"
+          color="secondary"
+          fullWidth
+          disabled={formik.isSubmitting}
+          sx={{ mt: 3, mb: 2 }}
+        >
+          {formik.isSubmitting ? 'SENDING...' : 'SEND MAIL'}
+        </Button>
+      </Box>
 
-        <Grid item xs={12}>
-          <TextField
-            required
-            fullWidth
-            id="subject"
-            label="Enter your subject"
-            name="subject"
-            autoComplete="subject"
-            value={formik.values.subject}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            error={formik.touched.subject && Boolean(formik.errors.subject)}
-            helperText={formik.touched.subject && formik.errors.subject}
-          />
-        </Grid>
-
-        <Grid item xs={12}>
-          <TextField
-            required
-            fullWidth
-            id="message"
-            label="Enter your message"
-            name="message"
-            multiline
-            rows={4}
-            value={formik.values.message}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            error={formik.touched.message && Boolean(formik.errors.message)}
-            helperText={formik.touched.message && formik.errors.message}
-          />
-        </Grid>
-      </Grid>
-
-      <Button
-        type="submit"
-        variant="contained"
-        color="secondary"
-        fullWidth
-        sx={{ mt: 3, mb: 2 }}
+      <Snackbar
+        open={popup.open}
+        autoHideDuration={5000}
+        onClose={() => setPopup((current) => ({ ...current, open: false }))}
+        anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
       >
-        SEND MAIL
-      </Button>
-    </Box>
+        <Alert
+          severity={popup.severity}
+          variant="filled"
+          onClose={() => setPopup((current) => ({ ...current, open: false }))}
+        >
+          {popup.message}
+        </Alert>
+      </Snackbar>
+    </>
   );
 }
