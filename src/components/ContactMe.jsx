@@ -10,7 +10,6 @@ import * as yup from 'yup';
 import axios from 'axios';
 
 const API_URL = 'https://portfolio-backend-4ogf.onrender.com';
-// const API_URL = 'http://localhost:5000';
 
 export default function ContactMe() {
   const [popup, setPopup] = React.useState({
