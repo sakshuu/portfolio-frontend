@@ -34,8 +34,7 @@ export default function ContactMe() {
     values,
     {
       headers: { 'Content-Type': 'application/json' },
-      withCredentials: false,
-      timeout: 20000,
+      timeout: 60000,
     }
   );
 
