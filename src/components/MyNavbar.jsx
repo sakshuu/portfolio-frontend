@@ -66,7 +66,7 @@ const MyNavbar = () => {
     },
     {
       label:"Skills",
-      to:"/skills",
+      to:"/knowledge",
       type:"link",
       icon:<SettingsIcon/>
     },
