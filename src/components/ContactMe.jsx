@@ -9,7 +9,6 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
 
-const API_URL = 'https://portfolio-backend-4ogf.onrender.com';
 
 export default function ContactMe() {
   const [popup, setPopup] = React.useState({
@@ -30,24 +29,32 @@ export default function ContactMe() {
 
     onSubmit: async (values, { resetForm, setSubmitting }) => {
       try {
-        const response = await axios.post(`${API_URL}/send-email`, values, {
-          timeout: 10000,
-          headers: { 'Content-Type': 'application/json' },
-        });
+  const response = await axios.post(
+    'https://portfolio-backend-4ogf.onrender.com/send-email',
+    values,
+    {
+      headers: { 'Content-Type': 'application/json' },
+      withCredentials: false,
+      timeout: 20000,
+    }
+  );
 
-        setPopup({
-          open: true,
-          severity: 'success',
-          message: response.data.message || 'Your message has been sent successfully.',
-        });
-        resetForm();
-      } catch (error) {
-        setPopup({
-          open: true,
-          severity: 'error',
-          message: error.response?.data?.message || 'Could not send your message. Please try again.',
-        });
-      } finally {
+  setPopup({
+    open: true,
+    severity: 'success',
+    message: response.data.message || 'Message sent successfully!',
+  });
+
+  resetForm();
+} catch (error) {
+  console.error('Send mail error:', error.response?.data || error.message);
+
+  setPopup({
+    open: true,
+    severity: 'error',
+    message: error.response?.data?.message || 'Could not send your message. Please try again.',
+  });
+} finally {
         setSubmitting(false);
       }
     },
