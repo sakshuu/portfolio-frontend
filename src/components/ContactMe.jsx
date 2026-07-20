@@ -29,14 +29,14 @@ export default function ContactMe() {
 
     onSubmit: async (values, { resetForm, setSubmitting }) => {
       try {
-  const response = await axios.post(
-    'https://portfolio-backend-4ogf.onrender.com/send-email',
-    values,
-    {
-      headers: { 'Content-Type': 'application/json' },
-      timeout: 60000,
-    }
-  );
+ const response = await axios.post(
+  'https://portfolio-backend-4ogf.onrender.com/send-email',
+  values,
+  {
+    headers: { 'Content-Type': 'application/json' },
+    timeout: 30000,
+  }
+);
 
   setPopup({
     open: true,
