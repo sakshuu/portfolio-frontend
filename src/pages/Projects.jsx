@@ -37,11 +37,11 @@ const Projects = () => {
       id:2,
     },
     {
-      title:"Compuny Website",  
-      hostedLink:"https://compuny-website.onrender.com/",
-      GithubLink:"https://github.com/sakshuu/compuny-website",
+      title:"Company Website",  
+      hostedLink:"https://company-website-demo-weo7.onrender.com/",
+      GithubLink:"https://github.com/sakshuu/company-website/tree/master",
       img:compunywebsite,
-      desc:"Compuny Website is a basic company website. For the frontend, I used React.js along with Tailwind CSS and pure CSS for styling. The backend is built using Node.js In the frontend, I integrated Swiper.js, bento grid layout, scroll effects, and various types of animations to enhance the user experience.",
+      desc:"Company Website is a basic company website. For the frontend, I used React.js along with Tailwind CSS and pure CSS for styling. The backend is built using Node.js In the frontend, I integrated Swiper.js, bento grid layout, scroll effects, and various types of animations to enhance the user experience.",
       id:2,
     },
     {
