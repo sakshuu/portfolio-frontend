@@ -6,6 +6,7 @@ import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
 import { Tic_tac_too, bollybook, compunywebsite, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
 import Button from '@mui/material/Button';
+import { isro, ms_cit } from '../assets/images/certificates';
 
 
 
@@ -46,28 +47,28 @@ const Projects = () => {
     },
     {
       title:"Bus-Booking",  
-      hostedLink:"https://bus-five-pearl.vercel.app/",
-      GithubLink:"https://github.com/sakshuu/bus",
+      hostedLink:"https://msrtc-e-booking-ui.vercel.app/",
+      GithubLink:"https://github.com/sakshuu/MSRTC-e-Booking-UI",
       img: red_bus,
-      desc:"The bus booking app is similar to the RedBus booking app. I am currently working on the UI. You can see the progress by clicking on the GitHub and hosted link below.",
+      desc:"MSRTC Bus Booking System | React, Redux Toolkit, Node.js, Express, Razorpay. Built a full-stack Maharashtra bus booking platform with route search, 40-seat selection, passenger validation, Razorpay payment integration, server-side payment verification, e-ticket generation, and Vercel/Render deployment.",
       id:3,
     },
-    {
-      title:"Student Management",  
-      hostedLink:"https://github.com/sakshuu/student_data",
-      GithubLink:"https://github.com/sakshuu/student_data",
-      img: student,
-      desc:"A student management system is a CRUD app using Redux in the frontend. Features include adding new students, viewing all students, editing/deleting student records, and searching by name/ID. It's a powerful tool for teachers and admins to manage student info efficiently.",
-      id:6,
-    },
-    {
-      title:"BollyBook",  
-      hostedLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
-      GithubLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
-      img: bollybook,
-      desc:"My movie booking project is a user-friendly app built with React JS, Redux, and Bootstrap. Users can search, view details, and book movie tickets. The app's real-time updates and efficient state management ensure smooth performance, making it ideal for online movie ticket booking. (currently working)",
-      id:3,
-    },
+    // {
+    //   title:"Student Management",  
+    //   hostedLink:"https://github.com/sakshuu/student_data",
+    //   GithubLink:"https://github.com/sakshuu/student_data",
+    //   img: student,
+    //   desc:"A student management system is a CRUD app using Redux in the frontend. Features include adding new students, viewing all students, editing/deleting student records, and searching by name/ID. It's a powerful tool for teachers and admins to manage student info efficiently.",
+    //   id:6,
+    // },
+    // {
+    //   title:"BollyBook",  
+    //   hostedLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
+    //   GithubLink:"https://github.com/sakshuu/bollybook-movieBookingWebApp-",
+    //   img: bollybook,
+    //   desc:"My movie booking project is a user-friendly app built with React JS, Redux, and Bootstrap. Users can search, view details, and book movie tickets. The app's real-time updates and efficient state management ensure smooth performance, making it ideal for online movie ticket booking. (currently working)",
+    //   id:3,
+    // },
     
     {
       title:"Weather App",  
@@ -85,6 +86,34 @@ const Projects = () => {
       desc:"My Tic-tac-too project is a user-friendly app built  in javascript and Bootstrap with animation of GSAP animation. Users can view the score details of win. The app's real-time updates and smooth performance, making it ideal for Tic-tac-too game application",
       id:5,
     },
+    
+];
+
+
+
+ const certificates = [
+    {
+      title:"ISRO",  
+      hostedLink:"https://drive.google.com/file/d/1JrTWRqLw5A1neL7ReN_-2bYMo6fp_ZFu/view?usp=sharing",
+      img: isro,
+      desc:"Overview of Geoprocessing using Python⁠",
+      id:1,
+    },
+    {
+      title:"MS-CIT",  
+      hostedLink:"https://drive.google.com/file/d/1JrTWRqLw5A1neL7ReN_-2bYMo6fp_ZFu/view?usp=sharing",
+      // img: protfolio,
+      desc:"⁠",
+      id:2,
+    },
+     {
+      title:"Legacy JavaScript Algorithms and Data Structures V8",  
+      hostedLink:"",
+      img: ms_cit,
+      desc:"(In Progress)⁠",
+      id:3,
+    },
+  
     
 ];
 
@@ -142,6 +171,63 @@ const Projects = () => {
                   <Link to={item?.GithubLink}  target="_blank"  rel="noopener noreferrer">
                     <Button variant="contained" color="secondary" className='main-btn' startIcon={<CodeOutlinedIcon />}>Github</Button>
                   </Link>
+                </CardActions>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Container>
+
+
+       <Typography variant="h3" className="heading" component="h3">
+     Certificates
+      </Typography>
+
+      <Container maxWidth="xl">
+        <Grid container spacing={2} columns={12} sx={{ marginTop: "20px" }}>
+          {certificates.map(item => (
+            <Grid item xs={12} sm={6} md={6} key={item.id}>
+              <Card
+                data-aos="zoom-in-up"
+                data-aos-duration="800"
+                sx={{
+                  backgroundColor: "#080808",
+                  color: "white",
+                  padding: '18px',
+                  height: '100%', // Ensure the card takes full height of the grid item
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                }}
+              >
+                <Box
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                  className="projectImg"
+                  sx={{
+                    height: '200px', // Fixed height for the image container
+                    overflow: 'hidden',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <img src={item?.img} className="projectSS" alt="ss"/>
+                </Box>
+                <CardContent sx={{ flexGrow: 1 }}>
+                  <Typography className="colorText" gutterBottom variant="h5" component="div">
+                    {item?.title}
+                  </Typography>
+                  <Typography variant="body2" >
+                    {item?.desc}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Link to={item?.hostedLink} target="_blank"  rel="noopener noreferrer">
+                    <Button variant="contained" color="secondary" className='main-btn' startIcon={<VisibilityOutlinedIcon />}>certificate</Button>
+                  </Link>
+                
                 </CardActions>
               </Card>
             </Grid>

@@ -65,9 +65,9 @@ const Home = () => {
   <Link to="https://www.linkedin.com/in/sakshi-jadhav-8b6429226">
   <img className='icon' src={linkedin_icon} alt="linkedin" />
   </Link>
-<Link to="https://join.skype.com/invite/w3faKSeeqfxM">
+{/* <Link to="https://join.skype.com/invite/w3faKSeeqfxM">
   <img className='icon' src={skype} alt="skype" />
-</Link>
+</Link> */}
 
 <Link onClick={handleEmail}>
   <img className='icon' src={gmail_icon} alt="gmail" />

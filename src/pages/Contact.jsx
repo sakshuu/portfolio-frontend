@@ -9,7 +9,7 @@ const Contact = () => {
   const contactList = [
     {
       icon:address,  
-      details:"Satara Parisar Ch.sambhaji nagar",
+      details:"Ch.sambhaji nagar",
       id:1,
     },
     {
@@ -22,11 +22,11 @@ const Contact = () => {
       details:"sakshisjadhav.120@gmail.com",
       id:3,
     },
-    {
-    icon: skype,
-    details:"live:.cid.ba8d1a2e4ea1a8a",
-    id:4,
-  }
+  //   {
+  //   icon: skype,
+  //   details:"live:.cid.ba8d1a2e4ea1a8a",
+  //   id:4,
+  // }
   ]
   return <>
   <Box className="gradient">

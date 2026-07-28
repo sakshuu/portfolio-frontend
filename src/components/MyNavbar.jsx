@@ -71,7 +71,7 @@ const MyNavbar = () => {
       icon:<SettingsIcon/>
     },
     {
-      label:"Projects",
+      label:"Projects / Certificates",
       to:"/projects",
       type:"link",
       icon:<AddLinkIcon/>
@@ -100,11 +100,11 @@ const settings = [
    icon:<MarkunreadIcon/>,  //gmail
    link:"https://mail.google.com/mail/?view=cm&to=sakshisjadhav.120@gmail.com"
  },
-  {
-    type: 'image',
-    icon:skype_b_w,  //gmail
-    link:"https://join.skype.com/invite/w3faKSeeqfxM"
-  }
+  // {
+  //   type: 'image',
+  //   icon:skype_b_w,  //gmail
+  //   link:"https://join.skype.com/invite/w3faKSeeqfxM"
+  // }
 ];
 
   return <>
