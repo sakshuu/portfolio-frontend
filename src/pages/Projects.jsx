@@ -34,7 +34,7 @@ const Projects = () => {
       hostedLink:"https://jobly-client-side.vercel.app",
       GithubLink:"https://github.com/sakshuu/jobly-client-side",
       img: Jobsy,
-      desc:"Build a FullStack Job Portal App with MERN Stack (MongoDB, Express, React Js, Node Js). Built a full-stack job portal with secure Student and Recruiter authentication using JWT. Developed features for job posting, job applications, profile management, and application status tracking. Enabled recruiters to manage companies, post jobs, review applicants, update hiring status, & download resumes. Integrated Cloudinary for secure resume upload and storage.Built REST APIs with role-based authorization and responsive UI using React.js.",
+      desc:"Tech Stack: React.js, Node.js, Express.js, MongoDB, Redux Toolkit, JWT, Multer, Cloudinary, Tailwind CSS. Built a full-stack Job Portal with **role-based authentication** for Students and Recruiters using JWT. Developed Student and Recruiter dashboards with profile management, job posting, job applications, and application status tracking. Implemented resume upload using Multer + Cloudinary with recruiter resume download functionality. Created secure REST APIs and performed CRUD operations for users, companies, jobs, and applications. Managed global state using Redux Toolkit and built a responsive UI with React.js and Tailwind CSS.",
       id:3,
     },
     {
@@ -58,7 +58,7 @@ const Projects = () => {
       hostedLink:"https://msrtc-e-booking-ui.vercel.app/",
       GithubLink:"https://github.com/sakshuu/MSRTC-e-Booking-UI",
       img: red_bus,
-      desc:"MSRTC Bus Booking System | React, Redux Toolkit, Node.js, Express, Razorpay. Built a full-stack Maharashtra bus booking platform with route search, 40-seat selection, passenger validation, Razorpay payment integration, server-side payment verification, e-ticket generation, and Vercel/Render deployment.",
+      desc:"MSRTC Maharashtra Bus Booking System | React.js, Redux Toolkit, Node.js, Express.js, Razorpay, Vercel, Render. Developed a full-stack bus booking platform for travel between Maharashtra cities with route search, bus selection, 40-seat interactive layout, passenger validation, and digital ticket generation. Managed booking state including selected route, bus, seats, passenger details, payment data, and e-ticket information using Redux Toolkit. Integrated Razorpay Test Mode payment flow with server-side payment order creation and signature verification using Node.js and Express.js. Deployed the React frontend on Vercel and Node.js backend on Render with secure environment variable configuration and CORS support.",
       id:6,
     },
     // {
