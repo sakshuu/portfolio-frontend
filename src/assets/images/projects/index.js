@@ -7,4 +7,4 @@ export { default as student } from "./student.jpg";
 export { default as red_bus } from "./red_bus.jpg";
 export { default as thebutterflypune } from "./thebutterflypune.jpg";
 export { default as compunywebsite } from "./compunywebsite.jpg";
-export { default as jobly } from "./jobly.jpg";
+export { default as Jobsy } from "./Jobsy.jpg";

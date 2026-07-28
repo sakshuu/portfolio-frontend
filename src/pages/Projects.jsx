@@ -4,7 +4,7 @@ import "./../assets/css/myprojects.css"
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
-import { Tic_tac_too, bollybook, compunywebsite, jobly, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
+import { Jobsy, Tic_tac_too, bollybook, compunywebsite, jobly, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
 import Button from '@mui/material/Button';
 import { isro, ms_cit } from '../assets/images/certificates';
 
@@ -26,15 +26,15 @@ const Projects = () => {
       hostedLink:"https://you-tube-clone-blue.vercel.app/",
       GithubLink:"https://github.com/sakshuu/you-tube_clone",
       img: youTubeClone,
-      desc:"Build a FullStack Job Portal App with MERN Stack (MongoDB, Express, React Js, Node Js). Built a full-stack job portal with secure Student and Recruiter authentication using JWT. Developed features for job posting, job applications, profile management, and application status tracking. Enabled recruiters to manage companies, post jobs, review applicants, update hiring status, & download resumes. Integrated Cloudinary for secure resume upload and storage.Built REST APIs with role-based authorization and responsive UI using React.js.",
+      desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
       id:2,
     },
      {
-      title:"Jobly",  
+      title:"Jobsy",  
       hostedLink:"https://jobly-client-side.vercel.app",
       GithubLink:"https://github.com/sakshuu/jobly-client-side",
-      img: jobly,
-      desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
+      img: Jobsy,
+      desc:"Build a FullStack Job Portal App with MERN Stack (MongoDB, Express, React Js, Node Js). Built a full-stack job portal with secure Student and Recruiter authentication using JWT. Developed features for job posting, job applications, profile management, and application status tracking. Enabled recruiters to manage companies, post jobs, review applicants, update hiring status, & download resumes. Integrated Cloudinary for secure resume upload and storage.Built REST APIs with role-based authorization and responsive UI using React.js.",
       id:3,
     },
     {
