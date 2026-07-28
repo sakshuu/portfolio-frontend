@@ -4,7 +4,7 @@ import "./../assets/css/myprojects.css"
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
-import { Tic_tac_too, bollybook, compunywebsite, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
+import { Tic_tac_too, bollybook, compunywebsite, jobly, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
 import Button from '@mui/material/Button';
 import { isro, ms_cit } from '../assets/images/certificates';
 
@@ -26,8 +26,16 @@ const Projects = () => {
       hostedLink:"https://you-tube-clone-blue.vercel.app/",
       GithubLink:"https://github.com/sakshuu/you-tube_clone",
       img: youTubeClone,
-      desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
+      desc:"Build a FullStack Job Portal App with MERN Stack (MongoDB, Express, React Js, Node Js). Built a full-stack job portal with secure Student and Recruiter authentication using JWT. Developed features for job posting, job applications, profile management, and application status tracking. Enabled recruiters to manage companies, post jobs, review applicants, update hiring status, & download resumes. Integrated Cloudinary for secure resume upload and storage.Built REST APIs with role-based authorization and responsive UI using React.js.",
       id:2,
+    },
+     {
+      title:"Jobly",  
+      hostedLink:"https://jobly-client-side.vercel.app",
+      GithubLink:"https://github.com/sakshuu/jobly-client-side",
+      img: jobly,
+      desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
+      id:3,
     },
     {
       title:"The Butterfly",  
@@ -35,7 +43,7 @@ const Projects = () => {
       GithubLink:"https://github.com/sakshuu/butterflyWeb",
       img: thebutterflypune,
       desc:"The Butterfly is a landing page designed using React.js for the frontend and Node.js with MongoDB for the backend. The UI is built with Bootstrap 5. The backend also uses Nodemailer for email functionality. This landing page is fully responsive across all device views. It uses CSS Grid for layout and includes navigation for seamless page transitions. Additionally, there is a 'Download PDF' button available for downloading the brochure.",
-      id:2,
+      id:4,
     },
     {
       title:"Company Website",  
@@ -43,7 +51,7 @@ const Projects = () => {
       GithubLink:"https://github.com/sakshuu/company-website/tree/master",
       img:compunywebsite,
       desc:"Company Website is a basic company website. For the frontend, I used React.js along with Tailwind CSS and pure CSS for styling. The backend is built using Node.js In the frontend, I integrated Swiper.js, bento grid layout, scroll effects, and various types of animations to enhance the user experience.",
-      id:2,
+      id:5,
     },
     {
       title:"Bus-Booking",  
@@ -51,7 +59,7 @@ const Projects = () => {
       GithubLink:"https://github.com/sakshuu/MSRTC-e-Booking-UI",
       img: red_bus,
       desc:"MSRTC Bus Booking System | React, Redux Toolkit, Node.js, Express, Razorpay. Built a full-stack Maharashtra bus booking platform with route search, 40-seat selection, passenger validation, Razorpay payment integration, server-side payment verification, e-ticket generation, and Vercel/Render deployment.",
-      id:3,
+      id:6,
     },
     // {
     //   title:"Student Management",  
@@ -76,7 +84,7 @@ const Projects = () => {
       GithubLink:"https://github.com/sakshuu/whather_app",
       img: weather_app,
       desc:"My Weather App Project is a user-friendly app built  in javascript  and Bootstrap. Users can search and view details Weather of any city. The app's real-time updates and  smooth performance, making it ideal for online Weather App booking",
-      id:4,
+      id:7,
     },
     {
       title:"Tic-tac-too",  
@@ -84,7 +92,7 @@ const Projects = () => {
       GithubLink:"https://github.com/sakshuu/tic-tac-toe",
       img: Tic_tac_too,
       desc:"My Tic-tac-too project is a user-friendly app built  in javascript and Bootstrap with animation of GSAP animation. Users can view the score details of win. The app's real-time updates and smooth performance, making it ideal for Tic-tac-too game application",
-      id:5,
+      id:8,
     },
     
 ];
