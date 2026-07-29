@@ -6,7 +6,7 @@ import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
 import { Jobsy, Tic_tac_too, bollybook, compunywebsite, jobly, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
 import Button from '@mui/material/Button';
-import { isro, ms_cit } from '../assets/images/certificates';
+import { e2de, isro, language, ms_cit } from '../assets/images/certificates';
 
 
 
@@ -107,20 +107,34 @@ const Projects = () => {
       desc:"Overview of Geoprocessing using Python⁠",
       id:1,
     },
-    {
-      title:"MS-CIT",  
-      hostedLink:"https://drive.google.com/file/d/1JrTWRqLw5A1neL7ReN_-2bYMo6fp_ZFu/view?usp=sharing",
-      // img: protfolio,
-      desc:"⁠",
+     {
+      title:"C Language",  
+      hostedLink:"https://drive.google.com/file/d/1PBLGnsMO2lMNl9axrVHvNB1JI00wriTY/view?usp=sharing",
+      img: language,
+      desc:"Participated in State-Level Programming Maniac in C Language⁠",
       id:2,
     },
      {
-      title:"Legacy JavaScript Algorithms and Data Structures V8",  
-      hostedLink:"",
-      img: ms_cit,
-      desc:"(In Progress)⁠",
+      title:"e2de",  
+      hostedLink:"https://drive.google.com/file/d/1JrTWRqLw5A1neL7ReN_-2bYMo6fp_ZFu/view?usp=sharing",
+      img: e2de,
+      desc:"employability and enterepreneurship developement endeavour⁠",
       id:3,
     },
+    // {
+    //   title:"MS-CIT",  
+    //   hostedLink:"https://drive.google.com/file/d/1JrTWRqLw5A1neL7ReN_-2bYMo6fp_ZFu/view?usp=sharing",
+    //   // img: protfolio,
+    //   desc:"⁠",
+    //   id:4,
+    // },
+    //  {
+    //   title:"Legacy JavaScript Algorithms and Data Structures V8",  
+    //   hostedLink:"",
+    //   img: ms_cit,
+    //   desc:"(In Progress)⁠",
+    //   id:5,
+    // },
   
     
 ];
