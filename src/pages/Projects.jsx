@@ -22,9 +22,9 @@ const Projects = () => {
       id:1,
     },
     {
-      title:"YouTube Clone",  
-      hostedLink:"https://you-tube-clone-blue.vercel.app/",
-      GithubLink:"https://github.com/sakshuu/you-tube_clone",
+      title:"StreamSphere",  
+      hostedLink:"https://stream-sphere-client-side.vercel.app/",
+      GithubLink:"https://github.com/sakshuu/StreamSphere-client-side",
       img: youTubeClone,
       desc:"In this project fully functional & fully responsive youtube clone single page application with react js, tailwind css & rapid api, core concepts of react js such as jsx, components, props, state,  conditional rendering, lists, keys & context api and build more complex logics in javascript to make my react application super interactive and good looking",
       id:2,
