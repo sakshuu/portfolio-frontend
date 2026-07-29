@@ -4,7 +4,7 @@ import "./../assets/css/myprojects.css"
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Link } from 'react-router-dom';
-import { Jobsy, Tic_tac_too, bollybook, compunywebsite, jobly, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone } from '../assets/images/projects';
+import { Jobsy, Tic_tac_too, bollybook, compunywebsite, jobly, protfolio, red_bus, student, thebutterflypune, weather_app, youTubeClone,  } from '../assets/images/projects';
 import Button from '@mui/material/Button';
 import { e2de, isro, language, ms_cit } from '../assets/images/certificates';
 
