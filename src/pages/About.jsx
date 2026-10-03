@@ -49,10 +49,7 @@ const About = () => {
       <Typography variant='h5'>  a passionate Frontend & Full-Stack Developer</Typography>
       </Box>
       <Typography variant='body1' className='info'>
-     with 3+ years of experience building modern, responsive, and high-performance web applications.
-</Typography>
-      <Typography variant='body1' className='info'>
-I specialize in frontend engineering with React.js, Next.js, TypeScript, and JavaScript, alongside state management using Redux Toolkit and responsive UI design with Tailwind CSS, Material UI, and Bootstrap. Additionally, I have hands-on experience in full-stack development using the MERN stack (Node.js, Express.js, MongoDB) and REST API integrations.
+     with 3+ years of experience building modern, responsive, and high-performance web applications. I specialize in frontend engineering with React.js, Next.js, TypeScript, and JavaScript, alongside state management using Redux Toolkit and responsive UI design with Tailwind CSS, Material UI, and Bootstrap. Additionally, I have hands-on experience in full-stack development using the MERN stack (Node.js, Express.js, MongoDB) and REST API integrations.
 </Typography>
       <Typography variant='body1' className='info' > Over the years, I’ve worked on diverse real-world products including e-commerce platforms, job portals, video platforms, admin dashboards, and marketplace products. I focus on writing clean, maintainable code, building reusable UI design systems, and incorporating emerging technologies like AI integrations to create seamless user experiences.
 </Typography>
