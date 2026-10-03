@@ -42,6 +42,10 @@ const Home = () => {
         1000, 
         "I'm MERN Stack Developer",
         1000, 
+        "I'm Product Engineering",
+        1000, 
+        "I'm System Design & Architecture",
+        1000, 
         "I'm Full Stack Developer",
         1000, 
         "I'm Software Developer ",
@@ -51,9 +55,10 @@ const Home = () => {
       cursor={true}
       repeat={Infinity}/>
       </Typography>
+  {/* Software Developer with 3 years of experience building scalable and high-quality web applications. Proven ability to deliver reliable solutions and adapt quickly in fast-paced development environments. */}
  
+<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000"> Results-driven Frontend & Product Engineer with 3+ years of experience delivering robust web applications in fast-paced tech environments. Specializing in React.js, Next.js, TypeScript, and modern design systems, I bridge the gap between UI/UX design and scalable backend APIs—building intuitive products and AI-powered web solutions.
 
-<Typography variant='span' className='fontsize' data-aos="zoom-in" data-aos-duration="2000"> Software Developer with 3 years of experience building scalable and high-quality web applications. Proven ability to deliver reliable solutions and adapt quickly in fast-paced development environments.
 
 </Typography>
 
