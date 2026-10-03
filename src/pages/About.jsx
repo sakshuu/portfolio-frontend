@@ -49,7 +49,6 @@ const About = () => {
       <Typography variant='h5'>  a passionate Frontend & Full-Stack Developer</Typography>
       </Box>
       <Typography variant='body1' className='info'>
-
      with 3+ years of experience building modern, responsive, and high-performance web applications.
 </Typography>
       <Typography variant='body1' className='info'>
